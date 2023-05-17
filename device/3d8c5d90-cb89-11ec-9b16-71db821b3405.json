@@ -1,0 +1,131 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "75d8cc90-b3f3-11ec-88cb-ad8278896f52"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "3d8c5d90-cb89-11ec-9b16-71db821b3405"
+    },
+    "label" : "",
+    "name" : "machine B",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "0YkJmTpPV3KpaEqBGWo8",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "b952c430-d1f3-11ec-8c76-ad8278896f52"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3d8c5d90-cb89-11ec-9b16-71db821b3405"
+    },
+    "type" : "deviceToAsset",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Owner",
+      "lastUpdateTs" : 1669126706462,
+      "longValue" : null,
+      "strValue" : "Tenant"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1652103631827,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "brews",
+      "lastUpdateTs" : 1651660819549,
+      "longValue" : 12,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"values\":{\"ts\":987654321,\"length\":21},\"progressBar\":{\"loading\":50},\"topic\":\"hello/its/me\"}",
+      "key" : "hello/its/meWidget",
+      "lastUpdateTs" : 1660823707148,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1652103631828,
+      "longValue" : 1652103631825,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1652103031966,
+      "longValue" : 1652103031490,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 52.60153299784228,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1671524071533,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 10.718222095499906,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1671524071533,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "uplinkWigetRequest",
+      "lastUpdateTs" : 1660823707148,
+      "longValue" : null,
+      "strValue" : "hello/its/me"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

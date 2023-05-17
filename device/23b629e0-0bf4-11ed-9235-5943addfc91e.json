@@ -1,0 +1,135 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f7d04f90-01c6-11ed-84d9-ff9e26bd77fb"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "23b629e0-0bf4-11ed-9235-5943addfc91e"
+    },
+    "label" : "wec",
+    "name" : "evewedcwc",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Door Sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "h0YilqcdJ6rJgjKopE85",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "383505d0-09ab-11ed-aacb-b50e53f41cc8"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "23b629e0-0bf4-11ed-9235-5943addfc91e"
+    },
+    "type" : "deviceToMachine",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Owner",
+      "lastUpdateTs" : 1669126706295,
+      "longValue" : null,
+      "strValue" : "Tenant"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1658738480316,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "alarmsCount",
+      "lastUpdateTs" : 1667210777773,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"values\":[\"ts\",\"length\"],\"progressBar\":[\"loading\"]}",
+      "key" : "hello/its/meWidget",
+      "lastUpdateTs" : 1661237880809,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1658738480316,
+      "longValue" : 1658738480312,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 51.96947210733458,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1671524063041,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 8.27993241107707,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1671524063041,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "state",
+      "lastUpdateTs" : 1658737871862,
+      "longValue" : null,
+      "strValue" : "normal"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1666693965313,
+      "longValue" : null,
+      "strValue" : "Faulty"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "uplinkWigetRequest",
+      "lastUpdateTs" : 1661237880809,
+      "longValue" : null,
+      "strValue" : "hello/its/me"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

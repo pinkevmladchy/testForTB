@@ -1,0 +1,115 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "75d8cc90-b3f3-11ec-88cb-ad8278896f52"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "4a4a6890-1889-11ed-b864-31da2039250b"
+    },
+    "label" : "",
+    "name" : "device d5",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "ix1sX2wCja9gHaRwJSOF",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fd0a5f10-1719-11ed-b864-31da2039250b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4a4a6890-1889-11ed-b864-31da2039250b"
+    },
+    "type" : "deviceToDirection",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1671467578043,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "alarmsCount",
+      "lastUpdateTs" : 1667210710745,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1660121975930,
+      "longValue" : 1660121975924,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 51.241341208171,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1671523854742,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 11.252399337827622,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1671523854742,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"topic\":\"hello\",\"payload\":{\"deviceId\":\"qwd\"}}",
+      "key" : "mqttRequest",
+      "lastUpdateTs" : 1661775790365,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1666693897593,
+      "longValue" : null,
+      "strValue" : "Inactive"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
