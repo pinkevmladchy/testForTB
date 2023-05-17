@@ -234,6 +234,7 @@
     "ownerId" : null,
     "title" : "TEST DASHBOARD GIT"
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
