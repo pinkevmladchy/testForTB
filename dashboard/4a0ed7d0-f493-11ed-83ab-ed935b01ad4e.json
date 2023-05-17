@@ -165,7 +165,7 @@
       },
       "entityAliases" : {
         "a6b1d8d2-a01b-4dc0-2c0e-87ca4436f8c3" : {
-          "id" : "a6b1d8d2-a01b-4dc0-2c0e-87ca4436f8c3",
+          "id" : "75d6a9b0-b3f3-11ec-88cb-ad8278896f52",
           "alias" : "a",
           "filter" : {
             "type" : "singleEntity",
@@ -219,7 +219,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "4a0ed7d0-f493-11ed-83ab-ed935b01ad4e"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "4a0ed7d0-f493-11ed-83ab-ed935b01ad4e"
@@ -231,7 +234,6 @@
     "ownerId" : null,
     "title" : "TEST DASHBOARD GIT"
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
